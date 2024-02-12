@@ -1,0 +1,39 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    color: #333;
+}
+
+#container {
+    margin-top: 50px;
+}
+
+/* Input and button styles */
+input[type="text"], input[type="button"] {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #45a049;
+}
+
+/* Output span style */
+#celsius {
+    font-size: 18px;
+    color: #333;
+}
